@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    background: rgb(25, 56, 100);
+}
+
+.navbar-brand {
+    font-family: cursive;
+}
+
+.offcanvas {
+    background: linear-gradient(300deg, rgb(25, 56, 100), rgb(50, 60, 150));
+}
+
+.offcanvas-title {
+    color: white;
+    font-family: cursive;
+}
+
+
+.offcanvas a li {
+    font-family: cursive;
+}
+.dropdown-menu {
+    background: rgb(50, 60, 150);  
+}
+
+.dropdown-menu li a {
+    color: white;
+}
+
+main section {
+    background-image: url(./pexels-asim-alnamat-32997.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+    width: 100%;
+    
+}
+
+main section .me {
+    font-size: 70px;
+    padding-top: 100px;
+    font-family: cursive;
+    animation: 3s linear;
+    animation-name: font;
+    animation-delay: 1s;
+    
+}
+@keyframes font {
+    from {
+        font-size: 10px;
+    }
+    to {
+        font-size: 70px;
+    }
+}
+
+.main-text {
+    font-size: 20px;
+    padding: 20px;
+    animation: 4s linear;
+    animation-name: font-change;
+    animation-delay: 1s;
+}
+@keyframes font-change {
+    from {
+        font-size: 1px;
+    }
+    to {
+        font-size: 20px;
+    }
+}
+
+.service-title {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.services img {
+    margin: auto;
+    margin-top: 10px;
+}
+
+.services p {
+    font-family: 'Roboto';
+}
+
+.services .card:hover {
+    box-shadow: 9px 9px 5px 9px gainsboro;
+    height: 200px;
+}
+
+.about {
+    background: rgb(25, 56, 100);
+    color: white;
+    font-family: 'Roboto';
+}
+
+.about img {
+    width: 420px;
+    height: 450px;
+}
+
+.about p {
+    font-family: 'Roboto';
+    
+}
+
+.about img {
+    width: 400px;
+    height: 400px;
+}
+
+.projects h2 {
+    font-size: 50px;
+    font-family: 'Roboto';
+}
+
+.projects .card:hover {
+    box-shadow: 9px 9px 9px 9px gainsboro;
+}
+
+
+.skill h1 {
+    font-family: 'Roboto';
+}
+
+.contact {
+    background: rgb(25, 56, 100);
+}
+footer {
+    background: rgb(25, 56, 100);
+    font-family: 'Roboto';
+}

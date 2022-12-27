@@ -20,7 +20,10 @@
     font-family: cursive;
 }
 
-
+.navbar i {
+    font-size: 30px;
+    color: white;
+}
 .offcanvas a li {
     font-family: cursive;
 }

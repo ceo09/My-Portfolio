@@ -99,6 +99,7 @@ main section .me {
     background: rgb(25, 56, 100);
     color: white;
     font-family: 'Roboto';
+    margin-top: 100px;
 }
 
 .about img {
@@ -125,10 +126,36 @@ main section .me {
     box-shadow: 9px 9px 9px 9px gainsboro;
 }
 
+.media i {
+    color: white;
+    font-size: 30px;
+}
+.media {
+    padding-top: 30px;
+    padding-right: 50px;
+}
 
 .skill h1 {
     font-family: 'Roboto';
 }
+
+.skill img {
+    animation-name: wheel;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+
+@keyframes wheel {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+ }
+ 
 
 .contact {
     background: rgb(25, 56, 100);

@@ -96,6 +96,7 @@ main section .me {
 .services .card:hover {
     box-shadow: 9px 9px 5px 9px gainsboro;
     height: 200px;
+    border: 1px solid gainsboro;
 }
 
 .about {
